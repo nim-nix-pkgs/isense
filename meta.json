@@ -7,17 +7,8 @@
   "license": "MIT",
   "web": "https://github.com/nimious/isense",
   "refs": [
-    "refs/heads/master",
+    "fatal: unable to access 'https://github.com/nimious/isense.git/': Could not resolve host: github.com",
     ""
   ],
-  "heads": [
-    {
-      "description": "Bindings for the InterSense SDK",
-      "license": "MIT",
-      "name": "isense",
-      "ref": "refs/heads/master",
-      "url": "https://github.com/nimious/isense.git",
-      "version": "master"
-    }
-  ]
+  "heads": []
 }
