@@ -7,7 +7,7 @@
   "license": "MIT",
   "web": "https://github.com/nimious/isense",
   "refs": [
-    "fatal: unable to access 'https://github.com/nimious/isense.git/': Could not resolve host: github.com",
+    "fatal: unable to access 'https://github.com/nimious/isense.git/': SSL connection timeout",
     ""
   ],
   "heads": []
