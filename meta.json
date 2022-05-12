@@ -7,8 +7,17 @@
   "license": "MIT",
   "web": "https://github.com/nimious/isense",
   "refs": [
-    "fatal: unable to access 'https://github.com/nimious/isense.git/': SSL connection timeout",
+    "refs/heads/master",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "description": "Bindings for the InterSense SDK",
+      "license": "MIT",
+      "name": "isense",
+      "ref": "refs/heads/master",
+      "url": "https://github.com/nimious/isense.git",
+      "version": "master"
+    }
+  ]
 }
