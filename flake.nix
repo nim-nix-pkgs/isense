@@ -7,6 +7,14 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
+  inputs."isense-master".dir   = "master";
+  inputs."isense-master".owner = "nim-nix-pkgs";
+  inputs."isense-master".ref   = "master";
+  inputs."isense-master".repo  = "isense";
+  inputs."isense-master".type  = "github";
+  inputs."isense-master".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."isense-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
